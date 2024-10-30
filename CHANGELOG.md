@@ -8,6 +8,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [[Unreleased]]
 
 ### Added
+- Add optional `api_key` parameter to `JsonRpcBase` to support API key-based authentication for JSON-RPC requests. This change allows users to connect to private XRPL nodes that require an API key.
+
+### Added
 - Add `include_deleted` to ledger_entry request
 
 ### BREAKING CHANGE:
