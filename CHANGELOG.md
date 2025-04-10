@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 - Add `include_deleted` to ledger_entry request
+- Support for custom HTTP headers in `JsonRpcBase` via the `headers` parameter. [763](https://github.com/XRPLF/xrpl-py/pull/763)
 
 ### BREAKING CHANGE:
 - Remove Python 3.7 support to fix dependency installation and use 3.8 as new default.
